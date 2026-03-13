@@ -7,7 +7,7 @@ autocommand==2.2.2
 babel==2.17.0
 Brlapi==0.8.7
 btrfsutil==6.19
-certifi==2026.1.4
+certifi==2026.1.4git 
 cffi==2.0.0
 chardet==6.0.0.post1
 charset-normalizer==3.4.4
