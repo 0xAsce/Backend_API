@@ -76,3 +76,15 @@ Each ToDo item includes:
 - python manage.py runserver
 
 - Access the API at http://127.0.0.1:8000/
+
+
+
+### API Endpoints
+## Method	Endpoint	Description
+# POST	/api/register/	Register a new user
+# POST	/api/login/	Obtain auth token
+# GET	/api/todos/	List all ToDos
+# POST	/api/todos/	Create a new ToDo
+# GET	/api/todos/{id}/	Get ToDo details
+# PUT	/api/todos/{id}/	Update a ToDo
+# DELETE	/api/todos/{id}/	Delete a ToDo
