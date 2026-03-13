@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 class Todo(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
-    description = models.TextField(blank=True)  # optional description
+    description = models.TextField(blank=True)
     isCompleted = models.BooleanField(default=False)
     createdAt = models.DateTimeField(auto_now_add=True)
 
