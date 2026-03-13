@@ -79,12 +79,12 @@ Each ToDo item includes:
 
 
 
-### API Endpoints
-## Method	Endpoint	Description
-# POST	/api/register/	Register a new user
-# POST	/api/login/	Obtain auth token
-# GET	/api/todos/	List all ToDos
-# POST	/api/todos/	Create a new ToDo
-# GET	/api/todos/{id}/	Get ToDo details
-# PUT	/api/todos/{id}/	Update a ToDo
-# DELETE	/api/todos/{id}/	Delete a ToDo
+## API Endpoints
+#### Method	Endpoint	Description
+### POST	/api/register/	Register a new user
+### POST	/api/login/	Obtain auth token
+### GET	/api/todos/	List all ToDos
+### POST	/api/todos/	Create a new ToDo
+### GET	/api/todos/{id}/	Get ToDo details
+### PUT	/api/todos/{id}/	Update a ToDo
+### DELETE	/api/todos/{id}/	Delete a ToDo
