@@ -1,0 +1,19 @@
+JWT authentication ####
+
+Docker ####
+
+User accounts ####
+
+Todo per user ####
+
+
+
+❌ no permissions
+❌ no pagination
+
+
+1️⃣ User authentication (JWT)
+2️⃣ Todos per user
+3️⃣ Filtering / search
+4️⃣ Pagination
+5️⃣ Docker deployment
