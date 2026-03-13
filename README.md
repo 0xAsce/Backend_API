@@ -44,7 +44,35 @@ Each ToDo item includes:
 - Django 6.0+
 - Django REST Framework
 
+
+
+### Installation
+
+Clone the repository:
+
+git clone https://github.com/0xAsce/Backend_API.git
+cd Backend_API
+
+Create a virtual environment (optional but recommended):
+
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
 Install dependencies:
 
-```bash
 pip install -r requirements.txt
+
+Apply migrations to create the database:
+
+python manage.py migrate
+
+Create a superuser for admin access:
+
+python manage.py createsuperuser
+
+Run the development server:
+
+python manage.py runserver
+
+Access the API at http://127.0.0.1:8000/
