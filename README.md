@@ -9,13 +9,10 @@ A simple RESTful API built with **Django** and **Django REST Framework (DRF)** f
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
 - [Pagination & Filtering](#pagination--filtering)
 - [Authentication](#authentication)
 - [Input Validation](#input-validation)
-- [Notes](#notes)
-- [License](#license)
 
 ---
 
@@ -67,11 +64,7 @@ Each ToDo item includes:
 
 - python manage.py migrate
 
-5 - Create a superuser for admin access:
-
-- python manage.py createsuperuser
-
-6 - Run the development server:
+5 - Run the development server:
 
 - python manage.py runserver
 
