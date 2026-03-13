@@ -88,3 +88,30 @@ Each ToDo item includes:
 ### GET	/api/todos/{id}/	Get ToDo details
 ### PUT	/api/todos/{id}/	Update a ToDo
 ### DELETE	/api/todos/{id}/	Delete a ToDo
+
+
+## Pagination & Filtering
+ 
+ - Pagination: Limits the number of items returned per request. Use ?page=<number> to navigate.
+
+ - GET /api/todos/?isCompleted=true
+
+## Authentication
+
+This API uses token-based authentication:
+
+- Register a user via /api/register/.
+
+- Obtain a token via /api/login/.
+
+- Include the token in headers for authenticated requests:
+
+- Authorization: Token <your-token-here>
+
+## Input Validation
+
+- title and description must not be empty
+
+- isCompleted must be a boolean
+
+- Invalid data returns a 400 error with details
